@@ -26,7 +26,73 @@
     transition: 5s;
   }
 
-  /* Eserczio 4 */
+  /* Eserczio 5 */
+
+  .ex-5-square:hover {
+    width: 200px;
+    height: 200px;
+    transition: 8s;
+  }
+
+  .ex-5-square:active {
+    width: 25px;
+    height: 25px;
+    transition: 3s;  
+
+  }
+
+  /* Esercizio 6 */
+
+  .ex-6-img:hover{
+    filter:grayscale(100%);
+    transition: 4s;
+  }
+
+  /* Esercizio 7 non l'ho ben capito */
+
+  .ex-7-img {
+   width: 25px;
+   height: 25px;
+  }
+  
+  
+  .ex-7-img:hover{
+    filter:grayscale(100%);
+    filter: invert(1);
+    transition: 10s;
+    width: 400px;
+    height: 250px;
+  }
+
+  /* Esercizio 8 */
+
+  .ex-8-img:hover{
+    filter: saturate(20%) drop-shadow(10px 10px 20px black) ;
+    border-radius: 60px;
+    transition: 8s;
+
+  }
+
+  /* Esercizio 9 */
+
+  .ex-9-img:hover{
+    filter: drop-shadow(10px 10px 20px #c63d3d) opacity(55%) ;
+    width: 65%;
+    height: 65%;
+    border-radius: 75px;
+    transition: 12s;
+
+  }
+
+  /* Esercizio 10 */
+
+
+  
+  
+
+
+
+
 
 
 
