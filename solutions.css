@@ -87,21 +87,111 @@
 
 .ex-10-icon {
 
-    animation-name: rotate; 
+    animation-name: rotate-1; 
     animation-duration: 1.8s; 
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 }
   
  
-  @keyframes rotate {
+@keyframes rotate-1 {
       from {transform: rotate(0deg);}
       to {transform: rotate(360deg);}
 }
 
+ /* Esercizio 11 */
 
+ .ex-11-icon:hover {
+
+    animation-name: rotate-2; 
+    animation-duration: 1.5s; 
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes rotate-2 {
+        0% {transform: rotate(0deg);}
+        80% {transform: rotate(270deg);}
+        100% {transform: rotate(0deg);}
+}
+  
+/* Esercizio 12 */
+
+.ex-12-button:hover {
+
+    .ex-12-top-white {
+        animation-name: rotate-3 ; 
+        animation-duration: 1.5s; 
+        animation-timing-function: linear;
+    }
     
+   
+
+    .ex-12-bottom-white {
+        animation-name: rotate-4 ; 
+        animation-duration: 1.5s;
+        animation-timing-function: linear;
+    }
+    
+  
+}
+
+@keyframes rotate-3 {
+    0%{transform: translate(0px)}
+    50% { transform: translate(60px);}
+    100% { transform: translate(0px);}
+        
+}
+
+@keyframes rotate-4 {
+    0%{transform: translate(0px)}
+    50% { transform: translate(-60px);}
+    100%{transform: translate(0px)}
+        
+} 
+
+/* Esercizio 13 */
+
+.ex-13-button:hover{
+    .ex-13-top-white {
+        animation-name: rotate-5 ; 
+        animation-duration: 6s;
+        animation-iteration-count: infinite; 
+        animation-timing-function: linear;
+       
+    }
+    
+   
+
+    .ex-13-bottom-white {
+        animation-name: rotate-6 ; 
+        animation-duration: 6s;
+        animation-timing-function:linear;
+        animation-iteration-count: infinite;
+    }
+
+}
+
+@keyframes rotate-5 {
+    0%{transform: translate(0px)}
+    25% { transform: translate(150px)}
+    50% { transform: translate(150px,70px) }
+    75%{transform: translate(-25px,70px);}
+    100%{transform: translate(-45px,0px);}
+    
+       
+}
+
+@keyframes rotate-6 {
+    0%{transform: translate(0px)}
+    25% { transform: translate(-115px)}
+    50% { transform: translate(-115px,-70px) }
+    75%{transform: translate(+90px,-70px);}
+    100%{transform: translate(90px,10px);}
+    
+} 
       
+/* LET'S GOOOOOOOOOO, NO WAYYYYY */
      
 
 
